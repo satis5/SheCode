@@ -42,6 +42,18 @@ html, body{
 a{
     text-decoration: none;
     color: var(--text-gray);
+    border-radius: 10px;
+}
+a.btn-video{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--DancingScript);
+    cursor: pointer;
+    background-color: black;
+    width: 100%;
+    color: white;
 }
 
 .flex-row{/*class cho phép tùy chỉnh hàng*/
@@ -93,18 +105,31 @@ p{
     font-family: var(--Lexend);
     color: var(--text-light);
 }
-.video-list {
-    display: flex;
-    justify-content: space-between;
+.video-detail {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    transform: translateY(100%);
+    transition: 0.4s;
     padding: 0.3em 1em;
 }
 
+.btn-video {
+    background-color: black;
+    width: 100%;
+    color: white;
+}
 .video-item {
     width: 32%;
     position: relative;
     overflow: hidden;
     padding: 0.3em 1em;
+    border-radius: 10px;
 }
+
 .video-item img {
     cursor: pointer;
     transition: 0.4s;
@@ -116,35 +141,19 @@ p{
     padding: 0.3em 1em;
 }
 
-.video-item:hover .product-detail {
+.video-item:hover .video-detail {
     transform: translateY(0);
     padding: 0.3em 1em;
 }
-
-.video-detail {
+.video-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3em 1em;
+}
+.video h2 {
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #fff;
-    transform: translateY(100%);
-    transition: 0.4s;
-    padding: 0.3em 1em;
+    padding: 22px 0;
 }
-.btn-post {
-    background-color: #444;
-    padding: 0.3em 1em;
-
-}
-
-.btn {
-    padding: 8px 12px;
-    color: #f1efe3;
-    border: none;
-    cursor: pointer;
-}
-
 /* ------x------- Global Classes -------x-------*/
 
 /* --------------- navbar ----------------- */
@@ -231,7 +240,7 @@ p{
 /* ----------------- Main Content----------- */
 .site-title{
     /*Ảnh background trên tiêu đề*/
-    background: url('./assets/Background-image.png');
+    background: url('https://www.elleman.vn/wp-content/uploads/2018/11/04/5-xu-huong-tap-the-hinh-2019-elle-man-3.jpg');
     background-size: cover;
     height: 110vh;
     display: flex;
