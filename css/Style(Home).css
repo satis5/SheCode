@@ -370,7 +370,7 @@ main .post-content .post-title a{
     width: 70%;
     display: flex;
     justify-content: space-between;
-    font-family: var(--DancingScript);
+    font-family: var(--Livvic);
 }
 
 .site-content > .sidebar .category-list .list-items a{
