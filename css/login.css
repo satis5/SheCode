@@ -1,0 +1,124 @@
+@import url('./css/fonts.css');
+
+:root{
+
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --text-light : #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+    --woodbrown: #9e825b;
+    --bg-color: #0f0f0f;
+    --white:#ffffff;
+    --sage: #61764B; 
+    --beige: #9BA17B;
+    --lightbrown:#CFB997;
+    --vintageorange: #FAD6A5; 
+
+    /* gradient color   */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --plate:linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
+    /*      theme font-family   */
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Josefin : 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic : 'Livvic', cursive;
+    --DancingScript:'DancingScript', cursive;
+    --Cabin: 'Cabin', cursive;
+    --Lora: 'Lora', cursive;
+   
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+}
+.wrapper{/*Toàn bộ page*/
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.wrapper:after{/*Toàn bộ page*/
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("./img/bg_explore.jpg") no-repeat center;
+	background-size: cover;
+	z-index: -1;
+}
+.from-box h2{
+    font-weight: 800;
+    font-size: 40px;
+    text-align: left;
+    
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin:40px 0 ;
+}
+.input-box label{
+    position: absolute;
+    top: 0%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.remember-forger {
+    width: 100%;
+    display: flex;
+    margin: -15px 0 15px;
+    justify-content: space-between;
+
+}
+.remember-forger label input{
+    accent-color: #162938;
+    padding-left: 10px;
+}
+.btn{
+    background: gray;
+    font-size: 20px;
+    border-radius: 6px;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: transparent;
+    transition: .5s;
+}
+.login-register{
+    padding-top: 20px;
+}

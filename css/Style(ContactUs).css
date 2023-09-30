@@ -91,7 +91,7 @@ h2{/*Tiêu đề contact us*/
 	position: relative;
 	padding: 0 0 10px;
 	margin-bottom: 10px;
-	font-family: var(--Lexend) !important;
+	font-family: var(--Josefin) !important;
 }
 
 h2:after{
