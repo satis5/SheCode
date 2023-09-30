@@ -157,7 +157,7 @@ p{
 }
 
 .nav .nav-items .nav-link:hover{
-    background-color: var(--midnight);
+    background-color: var(--orangeE);
 }
 
 .nav .nav-items .nav-link:hover a{
@@ -181,7 +181,7 @@ p{
 }
 
 .nav .social i:hover{
-    color: var(--midnight);
+    color: var(--orangeE);
 }
 
 /* -------x------- navbar ---------x------- */
@@ -269,7 +269,7 @@ section .container .owl-nav{/*Vị trí cục mũi tên điều hướng Blog-po
 
 .owl-theme .owl-nav [class*='owl-']:hover{/*Hiệu ứng di chuột qua cho mũi tên*/
     background: transparent;
-    color: var(--midnight);
+    color: var(--orangeE);
 }
 
 .owl-theme .owl-nav [class*='owl-']{
@@ -498,7 +498,7 @@ footer.footer .move-up{
 }
 
 footer.footer .move-up span{
-    color: var(--midnight);
+    color: var(--orangeE);
 }
 
 footer.footer .move-up span:hover{
