@@ -212,7 +212,10 @@ main .site-title h1, h3{
 main .site-title input{
     display: flex;
     text-align: center;
-    
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
 
 /* --------x------ Site title --------x------- */
