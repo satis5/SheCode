@@ -23,6 +23,12 @@ html, body{
     --beige: #9BA17B;
     --lightbrown:#CFB997;
     --vintageorange: #FAD6A5; 
+    --orangeA: #802F1D;
+    --orangeB:  #FFA591;
+    --orangeC: #FF5F3B;
+    --orangeD: #804336;
+    --orangeE: #CC4C2F;
+
 
     /* gradient color   */
     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -197,7 +203,7 @@ main .site-title .site-background{
     /*Màu chữ trên tiêu đề*/
     padding-top: 10rem;
     text-align: center;
-    color: var(--white);
+    color: var(--orangeD);
 }
 
 main .site-title h1, h3{
