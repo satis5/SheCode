@@ -23,6 +23,12 @@ html, body{
     --beige: #9BA17B;
     --lightbrown:#CFB997;
     --vintageorange: #FAD6A5; 
+    --orangeA: #802F1D;
+    --orangeB:  #FFA591;
+    --orangeC: #FF5F3B;
+    --orangeD: #804336;
+    --orangeE: #CC4C2F;
+
 
     /* gradient color   */
     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -151,7 +157,7 @@ p{
 }
 
 .nav .nav-items .nav-link:hover{
-    background-color: var(--midnight);
+    background-color: var(--orangeE);
 }
 
 .nav .nav-items .nav-link:hover a{
@@ -175,7 +181,7 @@ p{
 }
 
 .nav .social i:hover{
-    color: var(--midnight);
+    color: var(--text-gray);
 }
 
 /* -------x------- navbar ---------x------- */
@@ -195,9 +201,9 @@ main .site-title{
 
 main .site-title .site-background{
     /*Màu chữ trên tiêu đề*/
-    padding-top: 10rem;
+    padding-top: 30rem;
     text-align: center;
-    color: var(--white);
+    color: var(--orangeD);
 }
 
 main .site-title h1, h3{
@@ -205,7 +211,11 @@ main .site-title h1, h3{
 }
 main .site-title input{
     display: flex;
-    padding-top: 20px;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
 }
 
 /* --------x------ Site title --------x------- */
@@ -263,7 +273,7 @@ section .container .owl-nav{/*Vị trí cục mũi tên điều hướng Blog-po
 
 .owl-theme .owl-nav [class*='owl-']:hover{/*Hiệu ứng di chuột qua cho mũi tên*/
     background: transparent;
-    color: var(--midnight);
+    color: var(--orangeE);
 }
 
 .owl-theme .owl-nav [class*='owl-']{
@@ -492,7 +502,7 @@ footer.footer .move-up{
 }
 
 footer.footer .move-up span{
-    color: var(--midnight);
+    color: var(--orangeE);
 }
 
 footer.footer .move-up span:hover{

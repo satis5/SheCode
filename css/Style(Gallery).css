@@ -89,7 +89,7 @@ span{
 }
 
 .text-gray{
-    color: var(--text-gray);
+    color: #FF5F3B;
 }
 
 p{
@@ -123,7 +123,7 @@ p{
     display: none;
 }
 
-.nav .toggle-collapse .toggle-icons{/*Vị trí thanh bar menu*/
+.nav .toggle-collapse .toggle-icons{/*Vị ytrí thanh bar menu*/
     display: flex;
     justify-content: flex-end;
     padding: 1.7rem 0;
@@ -184,7 +184,7 @@ p{
 /* ----------------- Main Content----------- */
 .site-title{
     /*Ảnh background trên tiêu đề*/
-    background: url('./assets/Background-image.png');
+    background: url('./img/food.jpg');
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -195,11 +195,12 @@ p{
     /*Màu chữ trên tiêu đề*/
     padding-top: 10rem;
     text-align: center;
-    color: var(--white);
+    color: #802F1D; 
 }
 
 .site-title h1, h3{
-    margin: .3rem;
+    margin: .6rem;
+    color: white;
 }
 
 .row {
