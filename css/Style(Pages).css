@@ -186,7 +186,7 @@ p{
 /* --------------- Site title ---------------- */
 main .site-title{
     /*Ảnh background trên tiêu đề*/
-    background: url('./assets/Background-image.png');
+    background: url('./img/bg_explore.jpg');
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -203,16 +203,16 @@ main .site-title .site-background{
 main .site-title h1, h3{
     margin: .3rem;
 }
-
+main .site-title input{
+    display: flex;
+    padding-top: 20px;
+}
 
 /* --------x------ Site title --------x------- */
 
 /* --------------- Blog Carousel ------------ */
 
 main .blog{/*Cục abstract trên màn hình*/
-    background: url('./assets/Abract01.png');
-    background-repeat: no-repeat;
-    background-position: right;
     height: 100vh;
     width: 100%;
     background-size: 65%;
