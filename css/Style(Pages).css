@@ -186,7 +186,7 @@ p{
 /* --------------- Site title ---------------- */
 main .site-title{
     /*Ảnh background trên tiêu đề*/
-    background: url('./img/bg_explore.jpg');
+    background: url('./img/explorebg.jpg');
     background-size: cover;
     height: 110vh;
     display: flex;
