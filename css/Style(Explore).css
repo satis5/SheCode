@@ -201,7 +201,7 @@ main .site-title{
 
 main .site-title .site-background{
     /*Màu chữ trên tiêu đề*/
-    padding-top: 50rem;
+    padding-top: 30rem;
     text-align: center;
     color: var(--orangeD);
 }
@@ -211,6 +211,8 @@ main .site-title h1, h3{
 }
 main .site-title input{
     display: flex;
+    text-align: center;
+    padding-left: 15px;
     padding-top: 15px;
 }
 
