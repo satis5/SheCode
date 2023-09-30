@@ -51,7 +51,7 @@ html, body{
 /*Khai báo một lần dùng cho nhiều lần*/
 a{
     text-decoration: none;
-    color: var(--orangeC);
+    color: var(--text-gray);
 }
 
 .flex-row{/*class cho phép tùy chỉnh hàng*/
@@ -181,7 +181,7 @@ p{
 }
 
 .nav .social i:hover{
-    color: var(--orangeE);
+    color: var(--text-gray);
 }
 
 /* -------x------- navbar ---------x------- */
