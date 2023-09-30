@@ -1,1 +1,369 @@
 @import url('../css/fonts.css');
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --text-light : #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+    --woodbrown: #9e825b;
+    --bg-color: #0f0f0f;
+    --white:#ffffff;
+    --sage: #61764B; 
+    --beige: #9BA17B;
+    --lightbrown:#CFB997;
+    --vintageorange: #FAD6A5; 
+
+    /* gradient color   */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --plate:linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
+    /*      theme font-family   */
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Josefin : 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic : 'Livvic', cursive;
+    --DancingScript:'DancingScript', cursive;
+    --Cabin: 'Cabin', cursive;
+    --Lora: 'Lora', cursive;
+   
+}
+
+
+/* ---------------- Global Classes ---------------*/
+/*Khai báo một lần dùng cho nhiều lần*/
+a{
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+.flex-row{/*class cho phép tùy chỉnh hàng*/
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap; /*Cho phép tùy chỉnh trang phù hợp với kích thước màn hiển thị*/
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: var(--Lexend);
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: var(--Lexend);
+}
+
+h3{
+    font-family: var(--Lora);
+    font-size: 1.3rem;
+}
+
+button.btn{/*Template các nút được dùng trong web*/
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--DancingScript);
+    cursor: pointer;
+}
+
+span{
+    font-family: var(--Abel);
+}
+
+.container{
+    margin: 0 5vw;
+}
+
+.text-gray{
+    color: var(--text-gray);
+}
+
+p{
+    font-family: var(--Lexend);
+    color: var(--text-light);
+}
+.video-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3em 1em;
+}
+
+.video-item {
+    width: 32%;
+    position: relative;
+    overflow: hidden;
+    padding: 0.3em 1em;
+}
+.video-item img {
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 0.3em 1em;
+}
+
+.video-item img:hover {
+    transform: scale(1.1);
+    padding: 0.3em 1em;
+}
+
+.video-item:hover .product-detail {
+    transform: translateY(0);
+    padding: 0.3em 1em;
+}
+
+.video-detail {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    transform: translateY(100%);
+    transition: 0.4s;
+    padding: 0.3em 1em;
+}
+.btn-post {
+    background-color: #444;
+    padding: 0.3em 1em;
+
+}
+
+.btn {
+    padding: 8px 12px;
+    color: #f1efe3;
+    border: none;
+    cursor: pointer;
+}
+
+/* ------x------- Global Classes -------x-------*/
+
+/* --------------- navbar ----------------- */
+
+.nav{/*Độ rộng cục menu*/
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu{ 
+    justify-content: space-between;
+}
+
+.nav .toggle-collapse{/*Vị trí thanh bar menu*/
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons{/*Vị trí thanh bar menu*/
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i{
+    font-size: 1.4rem;
+    color: var(--text-gray);
+}
+
+.collapse{/*Độ mở rộng của thanh menu khi nhấn chuột vào*/
+    height: 30rem;
+}
+
+.nav .nav-items{/*Tùy chỉnh thành menu*/
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: var(--midnight);
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: var(--white);
+}
+
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Josefin);
+    font-size: 1.6rem;
+}
+
+.nav .social{
+    padding: 1.4rem 0
+}
+
+.nav .social i{
+    padding: 0 .2rem;
+}
+
+.nav .social i:hover{
+    color: var(--midnight);
+}
+
+/* -------x------- navbar ---------x------- */
+
+
+/* ----------------- Main Content----------- */
+.site-title{
+    /*Ảnh background trên tiêu đề*/
+    background: url('./assets/Background-image.png');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+.site-title .site-background{
+    /*Màu chữ trên tiêu đề*/
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.site-title h1, h3{
+    margin: .3rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Tạo 2 cột nằm cạnh nhau */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+
+
+/* --------X-------- Main Content-------X--- */
+/* ----------------- Footer --------------------- */
+footer.footer{/*Màu khung footer*/
+    height: 100%;
+    background: var(--bg-color);
+    position: relative;
+}
+
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+
+footer.footer .container h2{
+    color: var(--white);
+}
+
+footer.footer .newsletter .form-element{
+    background: black;
+    display: inline-block;
+}
+
+footer.footer .newsletter .form-element input{
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: var(--Josefin);
+    font-size: 1rem;
+    width: 74%;
+}
+
+footer.footer .newsletter .form-element span{
+    background: var(--sky);
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+
+footer.footer .instagram div > img{
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+
+footer.footer .follow div i{
+    color: var(--white);
+    padding: 0 .4rem;
+}
+
+footer.footer .rights{
+    justify-content: center;
+    font-family: var(--Josefin);
+}
+
+footer.footer .rights h4 a{
+    color: var(--white);
+}
+
+footer.footer .move-up{
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+
+footer.footer .move-up span{
+    color: var(--midnight);
+}
+
+footer.footer .move-up span:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+
+/* ---------x------- Footer ----------x---------- */
+
+/*--------------------Viewport less then or equal to 1130px----------------------*/
+@media only screen and (max-width: 1130px){
+    .site-content .post-content > .post-image .post-info{
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+        border-radius: 0% !important;
+    }
+
+    .site-content .sidebar .popular-post .post-info{
+        display: none !important;
+    }
+
+    footer.footer .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
