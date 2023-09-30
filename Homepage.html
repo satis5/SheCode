@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyHaNoi</title>
+    <link rel="icon" type="image/x-icon" href="./css/assets/favicon.png">
+
+    <!-- Awesome Icons Library-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!--Custom Style-->
+    <link rel="stylesheet" href="./css/Style(Home).css">
+
+</head>
+
+<body>
+<!-- ----------------------------  Thanh menu điều hướng ---------------------------------------------- -->
+
+    <!-- ----------------------------  Thanh menu điều hướng ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">MyHaNoi</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items"> <!--Tạo ra các phím menu chính-->
+                    <li class="nav-link">
+                        <a href="./Homepage.html">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./Homepage.html">Category</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./Pages.html">Pages</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./Gallerypage.HTML">Gallery</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./ContactUspage.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray"> <!--Các icon mạng xã hội--> 
+                <a href="https://www.facebook.com/sakakiasami"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------x---------------  Thanh menu điều hướng --------------------------x------------------- -->
+
+    <!----------------------------- Phần chính của web ------------------------------>
+
+    <main>
+
+        <!------------------------ Site Title ---------------------->
+
+        <section class="site-title">
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+                <h3>Thousands of years of history</h3>
+                <h1>Cultural Center of Vietnam</h1>
+                <button class="btn">Explore</button>
+            </div>
+        </section>
+
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Blog Carousel ----------------- -->
+
+        <section>
+            <div class="blog">
+                <div class="container">
+                    <div class="owl-carousel owl-theme blog-post"><!--Các post sẽ được xuất hiện (4 cái)-->
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200"> <!--Blog 1-->
+                            <img src="./css/assets/Blog-post/blog1.jpg" alt="Chuyện của Hà Nội group">
+                            <div class="blog-title">
+                                <h3>Hồ Tây-Chuyện chưa kể</h3>
+                                <button class="btn btn-blog">Blog</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200"> <!--Blog 2-->
+                            <img src="./css/assets/Blog-post/blog2.jpg" alt="My Photo">
+                            <div class="blog-title">
+                                <h3>Hà Nội, cổ kính nhưng không cũ</h3>
+                                <button class="btn btn-blog">Blog</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200"> <!--Blog 3-->
+                            <img src="./css/assets/Blog-post/blog3.jpg" alt="My photo">
+                            <div class="blog-title">
+                                <h3>Có một Hà Nội thật đẹp về đêm</h3>
+                                <button class="btn btn-blog">Blog</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200"> <!--Blog 4-->
+                            <img src="./css/assets/Blog-post/blog4.jpg" alt="My photo">
+                            <div class="blog-title">
+                                <h3>Những gành hàng gánh cả Hà Nội theo sau</h3>
+                                <button class="btn btn-blog">Blog</button>
+                                <span>2 minutes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-navigation"> <!--2 chiếc mũi tên điều hướng cho blog posts-->
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------x---------- Blog Carousel --------x-------- -->
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts"> <!--Phần post chính của mục Post-->
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200"> <!--Post 1 nhé-->
+                        <div class="post-image">
+                            <div>
+                                <img src="./css/assets/Blog-post/Post_1.jpg" class="img" alt="Chuyện của Hà Nội group">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;August 26, 2022</span>
+                                <span>2 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">100 Điều nhất định phải thử vào mùa thu ở Hà Nội</a>
+                            <p>Thu Hà Nội vốn dĩ giản đơn và mộc mạc lắm, chỉ là có chút sương buổi sớm, 
+                                có chút se se lạnh âm thầm ngấm vào dòng người qua lại trên những con phố đượm mùi hoa sữa ngan ngát hương đưa , 
+                                có vài cơn mưa nhẹ bâng quơ, có đầy thêm chút gió, có bớt đi chút nắng gay gắt mùa hạ, và có thêm chút lá vàng lãng mạn của tình yêu. 
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200"><!--Post 2 nhé-->
+                        <div class="post-image">
+                            <div>
+                                <img src="./css/assets/Blog-post/post_2.jpg" class="img" alt="Chuyện của Hà Nội group">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;Apirl 08, 2022</span>
+                                <span>7 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Hồ Tây và những điều còn dang dở...</a>
+                            <p>Anh từng nói em đừng vì chia tay anh mà ghét Hà Nội đến mức không muốn trở về. 
+                                Em có ghét Hà Nội đâu, em thương từng con phố, từng hàng cây, thương cả những quán ăn mình từng đến. 
+                                Ký ức về Hà Nội sâu đậm trong tim em, bao đêm em vùi mình trong chăn khóc nức nở vì nhớ. Làm sao em có thể ghét thành phố này cơ chứ
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200"><!--Post 3 nhé-->
+                        <div class="post-image">
+                            <div>
+                                <img src="./css/assets/Blog-post/post_3.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 19, 2022</span>
+                                <span>5 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Chuyện tình mùa thu Hà Nội đã đi qua </a>
+                            <p>Nếu bây giờ anh có về Hà Nội, có vô tình gặp lại em như trong mùa hoa sữa năm ấy. 
+                                Gió vẫn thổi Hồ Tây mênh mông sóng, nắng vẫn chiếu vàng óng như mật ong, ánh mắt em vẫn long lanh như ly rượu vang. 
+                                Vẫn có chị hàng rong dắt xe đạp lọc cọc chở đầy hoa đi ngang qua. Và em vẫn cầm trên tay một bó bó cúc hoạ mi. 
+                                Khi bây giờ mùa thu Hà Nội chắc vẫn đẹp. Nhưng chúng ta đã khác, con người khác và cảm xúc khác.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200"><!--Post 4 nhé-->
+                        <div class="post-image">
+                            <div>
+                                <img src="./css/assets/Blog-post/post_4.jpg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 21, 2022</span>
+                                <span>12 Commets</span>
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Phố cổ, nét cổ kính của một thời đã cũ</a>
+                            <p>Nét cổ kính của Hà Nội hiện lên từ những ngách nhỏ quanh co. 
+                                Ở đó, nắng hiếm khi rọi tới, người, xe tấp nập, chen nhau qua lại hàng ngày và những dãy nhà tập thể xuống cấp, nhuốm màu thời gian. 
+                                Giữa mảnh đất đang vươn mình thay đổi nhanh chóng, hình ảnh phố cổ như một chút dư vị cũ kỹ, xa xưa được chắt lọc còn đọng lại.
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="pagination flex-row"> <!--Số trang hiển thị ở dưới-->
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="pages">1</a>
+                        <a href="#" class="pages">2</a>
+                        <a href="#" class="pages">3</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category"> <!--Các chủ đề chính được xuất hiện trên web-->
+                        <h2>Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="#">History</a>
+                                <span>(10)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="#">Culture</a>
+                                <span>(15)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                <a href="#">Lifestyle</a>
+                                <span>(27)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="400">
+                                <a href="#">Travel</a>
+                                <span>(30)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                                <a href="#">Food</a>
+                                <span>(12)</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="popular-post"> <!--Các post nổi bật-->
+                        <h2>Popular Post</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200"> <!--Post 1-->
+                            <div class="post-image">
+                                <div>
+                                    <img src="./css/assets/popular-post/m-blog_01.jpg" class="img" alt="Chuyện của Hà Nội Fb group">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Lùng sục các tọa độ check-in hot trong phố cổ “Không phải ai cũng biết”</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300"> <!--Post 2-->
+                            <div class="post-image">
+                                <div>
+                                    <img src="./css/assets/popular-post/m-Blog_02.jpg" class="img" alt="Chuyện của Hà Nội facebook group">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Yêu một ai đó ở Hà Nội</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="400"> <!--Post 3-->
+                            <div class="post-image">
+                                <div>
+                                    <img src="./css/assets/popular-post/m-blog_03.jpg" class="img" alt="Chuyện của Hà Nội facebook group">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Thức quà tinh tế gói cả mùa thu Hà Nội</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="500"> <!--Post 4-->
+                            <div class="post-image">
+                                <div>
+                                    <img src="./css/assets/popular-post/m-blog_04.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to better analyse road accidents</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="600"> <!--Post 5-->
+                            <div class="post-image">
+                                <div>
+                                    <img src="./css/assets/popular-post/m-blog_05.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2019</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">New data recording system to better analyse road accidents</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300"><!--Form chia sẻ-->
+                        <h2>Share your story about HaNoi</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags"> <!--Các tag nổi bật-->
+                        <h2>Popular Tags</h2>
+                        <div class="tags flex-row">
+                            <span class="tag" data-aos="flip-up" data-aos-delay="100">Hà Nội</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="200">Đồ ăn</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="300">Hồ Tây</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="400">Coffee</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="500">Mùa thu</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="600">Hoa sữa</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="700">Chill</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="800">Du lịch</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Phần chính của web ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200"> <!--About us-->
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia atque nemo ad modi officiis
+                    iure, autem nulla tenetur repellendus.</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200"> <!--Contact-->
+                <h2>Newsletter</h2>
+                <p>Stay update with our latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200"><!--Biểu tượng MXH ở footer-->
+                <h2>Follow us</h2>
+                <p>Let us be Social</p>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="move-up"> <!--Dấu mũi tên kéo lên đầu trang -->
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+
+    <!--Tùy chỉnh thư viện Jquery--> <!--Thư viện chức năng bổ sung cho Javascript-->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js -------------------> <!--plugin của giúp xây dựng các slide show được sử dụng hàng đầu trong website-->>
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Tùy chỉnh file javascript -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

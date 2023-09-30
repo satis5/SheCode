@@ -1,0 +1,159 @@
+@import url('./css/fonts.css');
+
+:root{
+
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --text-light : #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+    --woodbrown: #9e825b;
+    --bg-color: #0f0f0f;
+    --white:#ffffff;
+    --sage: #61764B; 
+    --beige: #9BA17B;
+    --lightbrown:#CFB997;
+    --vintageorange: #FAD6A5; 
+
+    /* gradient color   */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --plate:linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
+    /*      theme font-family   */
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Josefin : 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic : 'Livvic', cursive;
+    --DancingScript:'DancingScript', cursive;
+    --Cabin: 'Cabin', cursive;
+    --Lora: 'Lora', cursive;
+   
+}
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+}
+
+.container{/*Toàn bộ page*/
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.container:after{/*Toàn bộ page*/
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url("./assets/ContactUs/Background.jpg") no-repeat center;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.contact-box{ /*Hộp contact*/
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left{/*Nửa trái hộp contact*/
+	background: url("./assets/ContactUs/Background.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{/*Nửa phải hộp contact*/
+	padding: 25px 40px;
+}
+
+h2{/*Tiêu đề contact us*/
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+	font-family: var(--Lexend) !important;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2e3ecc;
+}
+
+.field{/*Giao diện vùng nhập dữ liệu*/
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+	font-family: var(--DancingScript);
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{/*Giao diện nút submit*/
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #2e7acc;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{/*Hiệu ứng nút submit*/
+    background-color: #2749ae;
+}
+
+.field:focus{ /*Giao diện vùng nhập khi được chọn*/
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+/*--------------------Viewport less then or equal to 880px----------------------*/
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
+/*--------------------Viewport less then or equal to 880px----------------------*/
