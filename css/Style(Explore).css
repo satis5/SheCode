@@ -216,6 +216,7 @@ main .site-title input{
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 10px;
+    justify-content: center;
 }
 
 /* --------x------ Site title --------x------- */
