@@ -19,6 +19,11 @@ html, body{
     --beige: #9BA17B;
     --lightbrown:#CFB997;
     --vintageorange: #FAD6A5; 
+    --orangeA: #802F1D;
+    --orangeB:  #FFA591;
+    --orangeC: #FF5F3B;
+    --orangeD: #804336;
+    --orangeE: #CC4C2F;
 
     /* gradient color   */
     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -207,7 +212,7 @@ p{
 }
 
 .nav .nav-items .nav-link:hover{
-    background-color: var(--midnight);
+    background-color: var(--orangeE);
 }
 
 .nav .nav-items .nav-link:hover a{
@@ -231,8 +236,9 @@ p{
 }
 
 .nav .social i:hover{
-    color: var(--midnight);
+    color: var(--text-gray);
 }
+
 
 /* -------x------- navbar ---------x------- */
 
@@ -240,7 +246,7 @@ p{
 /* ----------------- Main Content----------- */
 .site-title{
     /*Ảnh background trên tiêu đề*/
-    background: url('https://www.elleman.vn/wp-content/uploads/2018/11/04/5-xu-huong-tap-the-hinh-2019-elle-man-3.jpg');
+    background: url('./img/workoutbg.jpg');
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -249,9 +255,11 @@ p{
 
 .site-title .site-background{
     /*Màu chữ trên tiêu đề*/
-    padding-top: 10rem;
+    padding-top: 15rem;
     text-align: center;
-    color: var(--white);
+    color: var(--orangeA);
+    font-size: 35px;
+    font-family: 35px;
 }
 
 .site-title h1, h3{
