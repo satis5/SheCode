@@ -95,13 +95,13 @@ span{
     margin: 0 5vw;
 }
 
-.text-gray{
-    color: var(--text-gray);
+.orangeC{
+    color: var(--orangeC);
 }
 
 p{
     font-family: var(--Lexend);
-    color: var(--text-light);
+    color: var(--vintageorange)
 }
 
 /* ------x------- Global Classes -------x-------*/
@@ -169,7 +169,7 @@ p{
     padding: 1rem 0;
     display: block;
     font-family: var(--Josefin);
-    font-size: 1.6rem;
+    font-size: 2.0rem;
 }
 
 .nav .social{
@@ -181,7 +181,7 @@ p{
 }
 
 .nav .social i:hover{
-    color: var(--text-gray);
+    color: var(--orangeD);
 }
 
 /* -------x------- navbar ---------x------- */
@@ -442,7 +442,7 @@ main .post-content .post-title a{
 /* ----------------- Footer --------------------- */
 footer.footer{/*Màu khung footer*/
     height: 100%;
-    background: var(--bg-color);
+    background: var(--orangeC);
     position: relative;
 }
 
@@ -462,7 +462,7 @@ footer.footer .container h2{
 }
 
 footer.footer .newsletter .form-element{
-    background: black;
+    background: white;
     display: inline-block;
 }
 
@@ -477,7 +477,7 @@ footer.footer .newsletter .form-element input{
 }
 
 footer.footer .newsletter .form-element span{
-    background: var(--sky);
+    background: var(--orangeC);
     padding: .5rem .7rem;
     cursor: pointer;
 }
