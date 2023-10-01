@@ -212,7 +212,7 @@ p{
 }
 
 .nav .nav-items .nav-link:hover{
-    background-color: var(--midnight);
+    background-color: var(--orangeE);
 }
 
 .nav .nav-items .nav-link:hover a{
@@ -236,8 +236,9 @@ p{
 }
 
 .nav .social i:hover{
-    color: var(--midnight);
+    color: var(--text-gray);
 }
+
 
 /* -------x------- navbar ---------x------- */
 
@@ -254,9 +255,11 @@ p{
 
 .site-title .site-background{
     /*Màu chữ trên tiêu đề*/
-    padding-top: 10rem;
+    padding-top: 15rem;
     text-align: center;
-    color: var(--orangeD);
+    color: var(--orangeA);
+    font-size: 35px;
+    font-family: 35px;
 }
 
 .site-title h1, h3{
