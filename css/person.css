@@ -1,0 +1,178 @@
+@import url('fonts.css');
+
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --text-light : #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+    --woodbrown: #9e825b;
+    --bg-color: #0f0f0f;
+    --white:#ffffff;
+    --sage: #61764B; 
+    --beige: #9BA17B;
+    --lightbrown:#CFB997;
+    --vintageorange: #FAD6A5; 
+
+    /* gradient color   */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --plate:linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
+    /*      theme font-family   */
+    --Abel: 'Abel', cursive;
+    --Anton: 'Anton', cursive;
+    --Josefin : 'Josefin', cursive;
+    --Lexend: 'Lexend', cursive;
+    --Livvic : 'Livvic', cursive;
+    --DancingScript:'DancingScript', cursive;
+    --Cabin: 'Cabin', cursive;
+    --Lora: 'Lora', cursive;
+   
+}
+
+
+/* ---------------- Global Classes ---------------*/
+/*Khai báo một lần dùng cho nhiều lần*/
+a{
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+.flex-row{/*class cho phép tùy chỉnh hàng*/
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap; /*Cho phép tùy chỉnh trang phù hợp với kích thước màn hiển thị*/
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: var(--Lexend);
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: var(--Lexend);
+}
+
+h3{
+    font-family: var(--Lora);
+    font-size: 1.3rem;
+}
+
+button.btn{/*Template các nút được dùng trong web*/
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Lexend);
+    cursor: pointer;
+}
+
+span{
+    font-family: var(--Abel);
+}
+
+.container{
+    margin: 0 5vw;
+}
+
+.text-gray{
+    color: #FF5F3B;
+}
+
+p{
+    font-family: var(--Lexend);
+    color: var(--text-light);
+}
+
+/* ------x------- Global Classes -------x-------*/
+
+/* --------------- navbar ----------------- */
+
+.nav{/*Độ rộng cục menu*/
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu{ 
+    justify-content: space-between;
+}
+
+.nav .toggle-collapse{/*Vị trí thanh bar menu*/
+    position: absolute;
+    top: 0%;
+    width: 90%;
+    cursor: pointer;
+    display: none;
+}
+
+.nav .toggle-collapse .toggle-icons{/*Vị trí thanh bar menu*/
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.7rem 0;
+}
+
+.nav .toggle-collapse .toggle-icons i{
+    font-size: 1.4rem;
+    color: var(--text-gray);
+}
+
+.collapse{/*Độ mở rộng của thanh menu khi nhấn chuột vào*/
+    height: 30rem;
+}
+
+.nav .nav-items{/*Tùy chỉnh thành menu*/
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-size: 1.1rem;
+}
+
+.nav .nav-items .nav-link:hover{
+    background-color: #CC4C2F;/
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: var(--white);
+}
+
+
+.nav .nav-brand a{
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Josefin);
+}
+
+.nav .social{
+    padding: 1.4rem 0
+}
+
+.nav .social i{
+    padding: 0 .2rem;
+}
+
+.nav .social i:hover{
+    color: var(--midnight);
+}

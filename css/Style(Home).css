@@ -144,11 +144,14 @@ p{
 }
 
 .nav .nav-items .nav-link{
+    list-style: none;
     padding: 1.6rem 1rem;
     font-size: 1.1rem;
     position: relative;
     font-size: 1.1rem;
 }
+
+
 
 .nav .nav-items .nav-link:hover{
     background-color: #CC4C2F;/
@@ -166,17 +169,6 @@ p{
     font-family: var(--Josefin);
 }
 
-.nav .social{
-    padding: 1.4rem 0
-}
-
-.nav .social i{
-    padding: 0 .2rem;
-}
-
-.nav .social i:hover{
-    color: var(--midnight);
-}
 
 
 /* -------x------- navbar ---------x------- */
