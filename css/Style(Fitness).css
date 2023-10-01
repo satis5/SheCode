@@ -240,7 +240,7 @@ p{
 /* ----------------- Main Content----------- */
 .site-title{
     /*Ảnh background trên tiêu đề*/
-    background: url('https://www.elleman.vn/wp-content/uploads/2018/11/04/5-xu-huong-tap-the-hinh-2019-elle-man-3.jpg');
+    background: url('./img/workoutbg.jpg');
     background-size: cover;
     height: 110vh;
     display: flex;

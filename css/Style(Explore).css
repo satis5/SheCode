@@ -83,7 +83,7 @@ button.btn{/*Template các nút được dùng trong web*/
     border-radius: 2rem;
     padding: 1rem 3rem;
     font-size: 1rem;
-    font-family: var(--DancingScript);
+    font-family: var(--Lexend);
     cursor: pointer;
 }
 
@@ -212,9 +212,9 @@ main .site-title h1, h3{
 main .site-title input{
     display: flex;
     text-align: center;
-    padding-left: 15px;
+    padding-left: 330px;
     padding-top: 15px;
-    padding-right: 15px;
+    padding-right: 340px;
     padding-bottom: 10px;
     justify-content: center;
 }
