@@ -221,11 +221,12 @@ p{
 }
 
 .nav .nav-brand a{
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     padding: 1rem 0;
     display: block;
     font-family: var(--Josefin);
     font-size: 1.6rem;
+    color: var(--orangeC)
 }
 
 .nav .social{
@@ -247,7 +248,7 @@ p{
 /* ----------------- Main Content----------- */
 .site-title{
     /*Ảnh background trên tiêu đề*/
-    background: url('./img/workoutbg.jpg');
+    background: url('https://www.fitforfun.de/files/images/201910/1/bauch-workout,388658_m_n.jpg');
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -258,7 +259,7 @@ p{
     /*Màu chữ trên tiêu đề*/
     padding-top: 15rem;
     text-align: center;
-    color: var(--orangeA);
+    color: var(--orangeE);
     font-size: 35px;
     font-family: 35px;
 }
