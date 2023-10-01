@@ -211,6 +211,10 @@ h2{
     color: #CFB997;
     background-color: #0f0f0f;
 }
+.input .btn {
+    margin-top: 30px;
+    box-sizing: 15px;
+}
 
 
 
