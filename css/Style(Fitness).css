@@ -48,8 +48,9 @@ a{
     text-decoration: none;
     color: var(--text-gray);
     border-radius: 10px;
+    
 }
-a.btn-video{
+a.btn{
     border: none;
     border-radius: 2rem;
     padding: 1rem 3rem;
@@ -93,7 +94,6 @@ button.btn{/*Template các nút được dùng trong web*/
     font-family: var(--DancingScript);
     cursor: pointer;
 }
-
 span{
     font-family: var(--Abel);
 }
@@ -160,6 +160,7 @@ p{
     padding: 22px 0;
 }
 /* ------x------- Global Classes -------x-------*/
+
 
 /* --------------- navbar ----------------- */
 
